@@ -61,10 +61,7 @@ public abstract class RMCHandsSystem : EntitySystem
             return;
 
         if (!_whitelist.IsValid(ent.Comp.Whitelist, args.User))
-        {
-            _popup.PopupClient(Loc.GetString("rmc-pickup-whitelist-denied", ("item", ent.Owner)), args.User, args.User, PopupType.SmallCaution);
             args.Cancel();
-        }
     }
 
     private void OnWhitelistPickUpAttempt(Entity<WhitelistPickupComponent> ent, ref PickupAttemptEvent args)
@@ -74,7 +71,6 @@ public abstract class RMCHandsSystem : EntitySystem
 
         if (!_whitelist.IsValid(ent.Comp.Whitelist, args.Item))
         {
-            _popup.PopupClient(Loc.GetString("rmc-pickup-whitelist-denied", ("item", args.Item)), args.User, args.User, PopupType.SmallCaution);
             args.Cancel();
             return;
         }
