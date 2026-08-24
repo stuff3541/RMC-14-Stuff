@@ -24,6 +24,3 @@
       components:
         - Synth
       pickupDeniedPopup: rmc-breaching-hammer-pickup-denied
-    
-  
-# TODO RMC14: This hammer needs to be ONLY picked up by Synths, It should be impossible for a regular person to pick it up. Ideally there should be an error message saying "This is too heavy for you to pick up!" or something like that.
