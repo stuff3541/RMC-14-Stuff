@@ -338,7 +338,7 @@
   parent: [BaseItem, RMCBaseMeleeWeapon]
   id: RMCMaintenanceJack
   name: maintenance jack
-  description: A heavy synthetic-grade maintenance tool that can pry doors and work as a wrench.
+  description: A heavy synthetic-grade maintenance tool that can pry doors and tighten bolts.
   suffix: RMC
   components:
   - type: Sprite
