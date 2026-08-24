@@ -61,7 +61,12 @@ public abstract class RMCHandsSystem : EntitySystem
             return;
 
         if (!_whitelist.IsValid(ent.Comp.Whitelist, args.User))
+        {
+            if (ent.Comp.PickupDeniedPopup is { } popup)
+                _popup.PopupClient(Loc.GetString(popup, ("item", ent.Owner)), args.User, args.User, PopupType.SmallCaution);
+
             args.Cancel();
+        }
     }
 
     private void OnWhitelistPickUpAttempt(Entity<WhitelistPickupComponent> ent, ref PickupAttemptEvent args)
