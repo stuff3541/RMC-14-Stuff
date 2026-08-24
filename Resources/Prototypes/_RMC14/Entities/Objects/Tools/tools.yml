@@ -339,6 +339,7 @@
   id: RMCMaintenanceJack
   name: maintenance jack
   description: A heavy synthetic-grade maintenance tool that can pry doors and work as a wrench.
+  suffix: RMC
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/maintenance_jack.rsi
