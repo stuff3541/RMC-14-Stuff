@@ -28,6 +28,10 @@
         # /obj/item/clothing/under/rank/synthetic/old
       - id: JumpsuitMarine
       - id: CMJumpsuitMarineMedic
+      - id: CMScrubsBlue
+      - id: CMScrubsGreen
+      - id: CMScrubsPurple
+      - id: RMCScrubsWhite
     - name: Webbing
       choices: { CMAccessories: 1 }
       entries:
@@ -310,7 +314,6 @@
   name: We-Ya Experimental Tools Vendor
   description: A smaller vendor hooked up to a cache of specially provisioned, experimental tools and equipment provided by the We-Ya Research and Development Division(TM). Handle with care.
   components:
-  # TODO RMC14 : Use a token instead of access
   - type: AccessReader
     access:
     - [ "RMCAccessSynth" ]
@@ -331,6 +334,8 @@
         points: 15
       - id: RMCTelescopicBaton
         points: 15
+      - id: RMCMaintenanceJack
+        points: 15
       - id: RMCWebbingSurgicalGreen
         points: 15
       - id: RMCWebbingSurgicalBlue
@@ -338,6 +343,9 @@
       # Surgical Drop Pouch (Green) - 15 Points
       # Surgical Drop Pouch (Blue) - 15 Points
       # Surgical Drop Pouch (Black) - 15 Points
+      - id: RMCPortableDialysis
+        points: 15
+      # Autocompressor - 15 Points
       # Tool Webbing (Not small) - 15 Points
       # Tool Drop Pouch (Not small) - 15 Points
       - id: CMSatchelMarineLogistics
