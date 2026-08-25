@@ -23,4 +23,4 @@
     whitelist:
       components:
         - Synth
-      pickupDeniedPopup: rmc-breaching-hammer-pickup-denied
+    pickupDeniedPopup: rmc-breaching-hammer-pickup-denied

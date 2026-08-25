@@ -1,0 +1,11 @@
+- type: entity
+  parent: BaseItem
+  id: RMCSynthExperimentalToolsToken
+  name: synthetic experimental tools token
+  description: A We-Ya token for one synthetic support unit to draw from the experimental tools cache.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Misc/Experimental_tool_token.rsi
+    state: Experimental_Coin
+  - type: Item
+    size: Tiny
