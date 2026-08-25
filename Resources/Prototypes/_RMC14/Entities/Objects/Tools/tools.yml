@@ -381,7 +381,7 @@
     whitelist:
       components:
         - Synth
-    pickupDeniedPopup: rmc-maintenance-jack-pickup-denied
+    pickupDeniedPopup: rmc-too-heavy-to-pickup
   - type: PhysicalComposition
     materialComposition:
       CMSteel: 200
