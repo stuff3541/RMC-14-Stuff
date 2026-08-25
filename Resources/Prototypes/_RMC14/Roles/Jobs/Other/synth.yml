@@ -55,8 +55,6 @@
     - type: CMVendorUser
       id: RMCJobSynthetic
       points: 45
-      extraPoints:
-        ExperimentalTools: 30
     - type: DemoSpecWhitelist
     - type: GrenadeSpecWhitelist
     - type: ScoutWhitelist

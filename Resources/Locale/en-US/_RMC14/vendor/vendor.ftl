@@ -36,3 +36,6 @@ rmc-vending-machine-restock-blood-pack-not-full = {THE($item)} is not full. Fill
 rmc-vending-machine-restock-refillable-not-full = {THE($item)} is not full. Refill it at the vendor before restocking.
 rmc-vending-machine-restock-power-cell-missing = {THE($item)} needs a power cell installed to be restocked.
 rmc-vending-machine-restock-power-cell-not-charged = {THE($item)}'s power cell needs to be fully charged before restocking.
+
+rmc-vendor-points-token-redeem = You insert {THE($token)} into {THE($vendor)}. {$points} points are added to your account.
+rmc-vendor-points-token-wrong-vendor = {CAPITALIZE(THE($token))} does not fit into {THE($vendor)}.

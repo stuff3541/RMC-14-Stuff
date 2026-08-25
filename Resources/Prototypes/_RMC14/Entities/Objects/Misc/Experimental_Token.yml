@@ -9,3 +9,6 @@
     state: Experimental_Coin
   - type: Item
     size: Tiny
+  - type: RMCVendorPointsToken
+    pointsType: ExperimentalTools
+    points: 45
