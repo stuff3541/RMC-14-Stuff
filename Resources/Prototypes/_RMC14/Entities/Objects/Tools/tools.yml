@@ -332,7 +332,7 @@
   - type: PhysicalComposition
     materialComposition:
       CMSteel: 200
-  - type: whitelistpickup
+  - type: WhitelistPickupBy
     whitelist:
       components:
       - Synth

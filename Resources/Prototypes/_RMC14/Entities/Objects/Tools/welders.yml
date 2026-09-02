@@ -268,3 +268,8 @@
     reagent: WeldingFuel
     rechargeAmount: 1
     rechargeEvery: 1
+  - type: WhitelistPickupBy
+    whitelist:
+      components:
+        - Synth
+    PickupDeniedPopup: rmc-synth-item-too-heavy

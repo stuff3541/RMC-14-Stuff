@@ -195,6 +195,11 @@
         icon:
           True: { state: icon-on }
           False: { state: icon }
+  - type: WhitelistPickupBy
+    whitelist:
+      components:
+        - Synth
+    PickupDeniedPopup: rmc-synth-item-too-heavy
 
 - type: entity
   parent: [ClothingEyesHudMedical, BaseToggleClothing]
