@@ -188,8 +188,6 @@
     experimentalMesonFov: true
     defaultState: Full
     ignoreUserOnlyHalf: true
-  - type: RMCSynthItemRestriction
-    checkPickup: false
   - type: Appearance
   - type: GenericVisualizer
     visuals:

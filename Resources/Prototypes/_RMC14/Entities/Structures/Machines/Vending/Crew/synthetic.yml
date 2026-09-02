@@ -31,9 +31,6 @@
       - id: CMJumpsuitAverageJoe
       - id: JumpsuitMarine
       - id: CMJumpsuitMarineMedic
-      - id: CMJumpsuitSPP
-      - id: CMJumpsuitSPPMedic
-      - id: CMJumpsuitSPPEngi
     - name: Webbing
       choices: { CMAccessories: 1 }
       entries:
@@ -79,7 +76,6 @@
       - id: RMCSuitBioGeneral
       - id: RMCSuitBioWeYa
       - id: RMCCoatSnow
-      - id: RMCCoatSnowSoviet
     - name: Gloves
       choices: { CMGloves: 1 }
       entries:
@@ -232,8 +228,6 @@
     sections:
     - name: Engineer Supplies
       entries:
-      - id: CMAirlockCircuitBoard
-        points: 2
       - id: CMAPCElectronics
         points: 2
       - id: CMEntrenchingTool

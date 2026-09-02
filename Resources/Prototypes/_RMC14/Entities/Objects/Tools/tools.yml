@@ -328,11 +328,15 @@
         Structural: 30
     soundHit:
       collection: MetalThud
-  - type: RMCSynthItemRestriction
     checkPickup: false
   - type: PhysicalComposition
     materialComposition:
       CMSteel: 200
+  - type: whitelistpickup
+    whitelist:
+      components:
+      - Synth
+    PickupDeniedPopup: rmc-synth-item-too-heavy
 
 - type: entity
   parent: HandLabeler

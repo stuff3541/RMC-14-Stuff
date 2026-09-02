@@ -268,5 +268,3 @@
     reagent: WeldingFuel
     rechargeAmount: 1
     rechargeEvery: 1
-  - type: RMCSynthItemRestriction
-    checkPickup: false
