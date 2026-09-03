@@ -272,4 +272,4 @@
     whitelist:
       components:
         - Synth
-    PickupDeniedPopup: rmc-synth-item-too-heavy
+    pickupDeniedPopup: rmc-synth-item-too-heavy
