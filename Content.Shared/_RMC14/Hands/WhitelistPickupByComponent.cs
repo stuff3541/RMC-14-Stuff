@@ -10,6 +10,5 @@ public sealed partial class WhitelistPickupByComponent : Component
     public EntityWhitelist Whitelist = new();
 
     [DataField]
-
     public LocId? PickupDeniedPopup;
 }

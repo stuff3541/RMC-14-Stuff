@@ -1,10 +1,4 @@
 - type: entity
-  parent: CMMiniTank
-  id: RMCES11MobileFuelCanister
-  name: ES-11 mobile fuel canister
-  description: A compact welding fuel canister for field repairs and refills.
-
-- type: entity
   parent: BaseStorageItem
   id: RMCSynthRepairKit
   name: synthetic repair kit
