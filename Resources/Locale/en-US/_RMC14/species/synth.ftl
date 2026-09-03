@@ -6,6 +6,7 @@ rmc-species-synth-defib-attempt = You can't defibrilate {$target}. You need a sy
 rmc-species-synth-reset-key-invalid = You can't use the reset key on them, they aren't a synth!
 rmc-synth-item-restricted = Your programming prevents you from using {THE($item)}!
 rmc-synth-item-too-heavy = {CAPITALIZE(THE($item))} is too heavy for anyone without synthetic strength.
+rmc-synth-item-too-complex = {CAPITALIZE(THIS($item))} is too complex for anyone without a artifical brain. 
 
 rmc-species-synth-reset-key-needed = [color=ForestGreen]Use a synthetic reset key to get { OBJECT($victim) } functioning.[/color]
 rmc-species-synth-reset-key-too-damaged = [color=FireBrick]{ CAPITALIZE(SUBJECT($victim)) } { CONJUGATE-BE($victim) } too damaged to use a reset key on.[/color]

@@ -195,11 +195,11 @@
         icon:
           True: { state: icon-on }
           False: { state: icon }
-  - type: WhitelistPickupBy
+  - type: WhitelistPickupBy #TODO RMC14: Make it so people can pick it up but NONT turn it on (like medical hub) -- (jank way is with skills?)
     whitelist:
       components:
         - Synth
-    PickupDeniedPopup: rmc-synth-item-too-heavy
+    PickupDeniedPopup: rmc-synth-item-too-complex
 
 - type: entity
   parent: [ClothingEyesHudMedical, BaseToggleClothing]
