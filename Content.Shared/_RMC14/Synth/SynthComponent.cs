@@ -155,4 +155,3 @@ public sealed partial class SynthComponent : Component
 }
 
 public sealed partial class RMCToggleSynthHudActionEvent : InstantActionEvent;
-
