@@ -1,122 +1,4 @@
 ﻿Entries:
-- author: Dygon
-  changes:
-  - message: Attacking a phone as a xenonid will stop any sound it's currently playing.
-    type: Tweak
-  id: 3126
-  time: '2026-04-22T00:00:50.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9629
-- author: Dygon
-  changes:
-  - message: Claymores no longer explode while undeployed.
-    type: Fix
-  id: 3127
-  time: '2026-04-21T23:59:08.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9578
-- author: MidZik
-  changes:
-  - message: Fixed Steelcrest's Soak ability occasionally healing for more than intended.
-    type: Fix
-  id: 3128
-  time: '2026-04-22T00:00:04.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9424
-- author: Dygon
-  changes:
-  - message: Increased Tesla Coil range from 3 to 3.95 tiles.
-    type: Fix
-  id: 3129
-  time: '2026-04-22T00:05:01.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9687
-- author: Vixting
-  changes:
-  - message: Resin surge now has an overlay.
-    type: Add
-  - message: Resin surge is now predicted
-    type: Tweak
-  - message: Burrower overlay is now visible through walls.
-    type: Tweak
-  id: 3130
-  time: '2026-04-22T00:04:39.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9567
-- author: Dygon
-  changes:
-  - message: You can now see local chat near the observed player while using the Overwatch
-      Console or Watch Xeno action.
-    type: Tweak
-  id: 3131
-  time: '2026-04-22T00:06:11.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9672
-- author: nbstrong
-  changes:
-  - message: MRE ration packs now have to be torn open before you can access their
-      contents.
-    type: Fix
-  id: 3132
-  time: '2026-04-22T00:07:32.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9673
-- author: nbstrong
-  changes:
-  - message: MRE ration packs now have to be torn open before you can access their
-      contents.
-    type: Fix
-  id: 3133
-  time: '2026-04-22T00:08:35.958844+00:00'
-  url: null
-- author: CatAndHats
-  changes:
-  - message: 'Chance''s Claim has recieved a passover: the pipe network has been added
-      which is expansive stretching across the entire map, LZ1 (West LZ) North Comms
-      spawn now has a shortcut to its north giving a new route to the west of A-block,
-      survivor loot has been changed at both dropships and the scout cloak has been
-      moved eastward out of the hive to the reactor entrance, the map is now grimier
-      and has recieved lots of missing prop items, and the landing zones now have
-      much better gauss turret coverage.'
-    type: Add
-  - message: Added pre-armed CLF and UNMC IFF claymores for mapping/event purposes.
-    type: Add
-  id: 3134
-  time: '2026-04-22T00:08:49.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9580
-- author: Ian321
-  changes:
-  - message: When a foxtrot marine enters cryosleep a new one will be woken up to
-      replace them.
-    type: Add
-  id: 3135
-  time: '2026-04-22T00:09:24.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9698
-- author: IceNoobXD
-  changes:
-  - message: The tool webbing can now take light replacers!
-    type: Fix
-  - message: Added more Xeno chatsan!
-    type: Add
-  - message: Machine frames are now meltable!
-    type: Fix
-  - message: Deconstructing gas pipes will no longer grant "Upstream" steel!
-    type: Fix
-  id: 3136
-  time: '2026-04-22T00:11:55.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9694
-- author: keegaroo65
-  changes:
-  - message: Fixed lack of hive core destroyed announcement from weedkiller
-    type: Fix
-  id: 3137
-  time: '2026-04-22T03:53:33.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9451
-- author: TadJohnson00
-  changes:
-  - message: '[PVE] [RCM] added the L49 assault shotgun, available for use by Assault
-      Engineers.'
-    type: Add
-  - message: '[PVE] [RCM] tweaked the L90U1 underbarrel shotgun, allowing it to take
-      a wider variety of shotgun shells while reducing its effectiveness as a breaching
-      tool.'
-    type: Tweak
-  id: 3138
-  time: '2026-04-22T03:55:18.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9350
 - author: wheelwrightt
   changes:
   - message: NVGs now display their charge upon examining helmet even when not turned
@@ -4471,5 +4353,118 @@
   id: 3625
   time: '2026-09-03T18:26:28.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/10515
+- author: IceNoobXD
+  changes:
+  - message: Shiva Snowball has recived a whole map parity passover so that its more
+      inline with its cmss13 counterpart, this is primarily a prop passover!
+    type: Tweak
+  id: 3626
+  time: '2026-09-03T21:22:25.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9934
+- author: Vermidia
+  changes:
+  - message: '[PVE] Added drink mixes to the standard NutriCo AutoChef'
+    type: Add
+  id: 3627
+  time: '2026-09-03T22:40:31.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/10182
+- author: Thereisabear
+  changes:
+  - message: Fixed tools being placed when trying to deconstruct/repair placeable
+      surfaces.
+    type: Fix
+  id: 3628
+  time: '2026-09-04T21:54:20.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/10495
+- author: MortalBaguette
+  changes:
+  - message: The ability to make Lexorin has been disabled.
+    type: Fix
+  id: 3629
+  time: '2026-09-05T00:04:23.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/10570
+- author: J C Denton and BramvanZijp
+  changes:
+  - message: Added polished Peregrine Handcannon, silver Mateba variant for COs.
+    type: Add
+  - message: Enables Mateba special for COs.
+    type: Tweak
+  - message: CO weapons now come with a belt on spawn.
+    type: Tweak
+  - message: Winter Wyvern handcannon has been renamed to custom Peregrine Handcannon.
+    type: Tweak
+  - message: Fixed Mateba belts not having underlays for inserted revolvers.
+    type: Fix
+  - message: Fixed being able to store all kinds of items in Mateba Belt.
+    type: Fix
+  - message: Fixed a few wrong descriptions on CO's sidearm belts and weapons.
+    type: Fix
+  id: 3630
+  time: '2026-09-05T18:46:47.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9696
+- author: IceNoobXD
+  changes:
+  - message: Added 9 new inserts to Fiorina! Basketball (20%), Research Pristine (25%),
+      Pool Party (20%), Pizza Time (30%), Repair Panels LZ (30%), Scav Ship Holder
+      (10%), Engineer Office (30%,) Warden Office Decorated (15%) and Gamer Time (20%)!
+    type: Add
+  id: 3631
+  time: '2026-09-05T18:52:21.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9981
+- author: CatAndHats
+  changes:
+  - message: Added Echo and Foxtrot comfy chairs, and made them craftable like the
+      others
+    type: Add
+  id: 3632
+  time: '2026-09-05T19:08:11.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/10825
+- author: CatAndHats
+  changes:
+  - message: Added function to Hijack Bustable Walls, they now turn into Reinforced
+      wall on Hijack
+    type: Add
+  - message: Fixed Hijack Bustable windows not breaking into window frames
+    type: Fix
+  id: 3633
+  time: '2026-09-07T10:49:00.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/10833
+- author: Meara1179
+  changes:
+  - message: Fixed a bug as the Executive Bodyguard where selecting a suit before
+      your armor would prevent you from being able to pick an armor.
+    type: Fix
+  id: 3634
+  time: '2026-09-07T14:27:36.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/10831
+- author: Vermidia
+  changes:
+  - message: Fixed carriers showing up and being takeable from the ghost role menu.
+    type: Fix
+  id: 3635
+  time: '2026-09-09T11:48:06.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/10835
+- author: Thereisabear
+  changes:
+  - message: Fixed Tallgrass blocking resin.
+    type: Fix
+  id: 3636
+  time: '2026-09-09T19:01:43.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/10385
+- author: JustMyselfUwU
+  changes:
+  - message: Fixed a microscopic typo in the text that is displayed when hitting barbed
+      barricades
+    type: Fix
+  id: 3637
+  time: '2026-09-10T15:00:58.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/10839
+- author: IceNoobXD
+  changes:
+  - message: Fixed posters not layering above cargo containers or tables!
+    type: Fix
+  id: 3638
+  time: '2026-09-11T15:02:39.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9893
 Name: RMC14
 Order: -1
