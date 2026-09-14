@@ -17,7 +17,6 @@
       takeAll: CMStandard
       entries:
       - id: RMCSynthExperimentalToolsToken
-      # /obj/item/device/defibrillator/synthetic
       - id: RMCSynthResetKey
       - id: RMCHeadsetSynth
     - name: Uniform
@@ -25,7 +24,6 @@
       entries:
       - id: RMCJumpsuitSynthetic
         # mandatory: true, TODO allow vendors to mark entries as mandatory
-        # /obj/item/clothing/under/rank/synthetic/old
       - id: CMJumpsuitSyntheticPristine
       - id: CMJumpsuitSyntheticOutdated
       - id: CMJumpsuitAverageJoe
@@ -206,8 +204,8 @@
         points: 10
       - id: RMCExplosivePlastic
         points: 3
-      - id: RMCES11MobileFuelCanister
-        points: 4
+      # - id: RMCES11MobileFuelCanister
+      #   points: 4
       - id: RMCWelderIndustrialHighCapacity
         name: industrial blowtorch
         points: 4
