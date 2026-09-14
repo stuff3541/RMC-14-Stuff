@@ -169,49 +169,6 @@
       - id: CMMaskSterile
 
 - type: entity
-  parent: ColMarTechCrewSynthetic
-  id: ColMarTechCrewSyntheticColony
-  name: ASRS synthetic equipment rack
-  suffix: Colony Synth Access
-  components:
-  - type: CMAutomatedVendor
-    jobs:
-    - RMCSyntheticColony
-
-- type: entity
-  parent: ColMarTechBase
-  id: WeYaK9SynthVendor
-  name: We-Ya Synthetic K9 Equipment Requisitions
-  description: A vendor specially designed to dispense Synthetic K9 equipment.
-  components:
-  - type: AccessReader
-    access:
-    - [ "RMCAccessSynth" ]
-  - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
-  - type: CMAutomatedVendor
-    jobs:
-    - RMCJobSynthetic
-    sections:
-    - name: Standard Equipment
-      takeAll: CMStandard
-      entries:
-      - id: RMCHeadsetSynth
-      - id: RMCK9SerialIdTags
-      - id: RMCK9NameImplanter
-    - name: Handler Kit
-      choices: { RMCK9HandlerKit: 1 }
-      entries:
-      - id: RMCVendorBundleK9HandlerCorpsman
-      - id: RMCVendorBundleK9HandlerMP
-    - name: Carry Harness
-      choices: { CMBackpack: 1 }
-      entries:
-      - id: RMCK9SynthMedicalHarness
-      - id: RMCK9SynthCargoHarness
-      - id: RMCK9SynthMPHarness
-
-- type: entity
   parent: ColMarTechBase
   id: ColMarTechCrewSyntheticGear
   name: ASRS synthetic auxiliary gear rack
