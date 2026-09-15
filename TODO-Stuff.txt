@@ -1,3 +1,3 @@
-1: Make mason glasses like medhud
-2: remove random fucking airlock
+1 Make mason glasses like medhud
+2 remove random fucking airlock
 3 check for dup RMCSynthResetKey and sprite
