@@ -19,8 +19,5 @@
     soundHit:
       collection: GenericHit
     wideAnimationRotation: 90
-  - type: WhitelistPickupBy
-    whitelist:
-      components:
-        - Synth
-    pickupDeniedPopup: rmc-synth-item-too-heavy
+  - type: RMCSynthItemRestriction
+    denyPopup: rmc-synth-item-too-heavy
