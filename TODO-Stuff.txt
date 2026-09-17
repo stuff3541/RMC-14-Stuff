@@ -1,4 +1,4 @@
 1 Make mason glasses like medhud
-2 remove random fucking airlock
-3 check for dup RMCSynthResetKey and sprite
+2 remove random fucking airlock - Done
+3 check for dup RMCSynthResetKey and sprite - Done
 4 make hammer do after bar for removing walls
