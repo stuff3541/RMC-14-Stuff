@@ -147,8 +147,6 @@
   - type: PowerCellDraw
     useRate: 132
 
-# TODO RMC14: synth reset key sprites currently all use a makeshift_key placeholder.
-# Replace them with original art that does not include Alien media logos.
 - type: entity
   parent: [CMBaseDefibrillator, RMCPowerCellSlotUnremovable]
   id: RMCSynthResetKey
@@ -268,8 +266,8 @@
   components:
   - type: Sprite
     layers:
-    - state: seeg_reset_key
-    - state: seeg_reset_key_on
+    - state: novaris_reset_key
+    - state: novaris_reset_key_on
       map: [ "enum.ToggleableVisuals.Layer" ]
       visible: false
 

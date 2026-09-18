@@ -36,6 +36,12 @@
     },
     {
       "name": "makeshift_key_on"
+    },
+    {
+      "name": "novaris_reset_key"
+    },
+    {
+      "name": "novaris_reset_key_on"
     }
   ]
 }
