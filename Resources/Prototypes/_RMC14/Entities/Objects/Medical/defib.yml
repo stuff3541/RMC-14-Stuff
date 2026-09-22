@@ -244,6 +244,9 @@
     - state: hyper_reset_ns_key_on
       map: [ "enum.ToggleableVisuals.Layer" ]
       visible: false
+    - type: RequiresSkill
+    skills:
+      RMCSkillEngineer: 0
 
 - type: entity
   parent: RMCSynthResetKeySMART
