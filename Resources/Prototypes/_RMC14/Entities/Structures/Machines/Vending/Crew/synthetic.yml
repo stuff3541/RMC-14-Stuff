@@ -16,7 +16,7 @@
     - name: Standard Equipment
       takeAll: CMStandard
       entries:
-      # /obj/item/coin/marine/synth
+      - id: RMCSynthExperimentalToolsToken
       # /obj/item/device/defibrillator/synthetic
       - id: RMCSynthResetKey
       - id: RMCHeadsetSynth
@@ -149,16 +149,6 @@
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskSterile
-
-- type: entity
-  parent: ColMarTechCrewSynthetic
-  id: ColMarTechCrewSyntheticColony
-  name: ASRS synthetic equipment rack
-  suffix: Colony Synth Access
-  components:
-  - type: CMAutomatedVendor
-    jobs:
-    - RMCSyntheticColony
 
 - type: entity
   parent: ColMarTechBase
@@ -310,7 +300,6 @@
   name: We-Ya experimental tools vendor
   description: A smaller vendor hooked up to a cache of specially provisioned, experimental tools and equipment provided by the We-Ya Research and Development Division(TM). Handle with care.
   components:
-  # TODO RMC14 : Use a token instead of access
   - type: AccessReader
     access:
     - [ "RMCAccessSynth" ]
