@@ -232,6 +232,34 @@
       CMGlass: 120
 
 - type: entity
+  parent: RMCWelderIndustrial
+  id: RMCWelderExperimental
+  name: Experimental Welder
+  description: A synthetic-grade experimental blowtorch with a compact fuel recycler.
+  components:
+  - type: Sprite ## RMC TODO: Uneque sprite
+    sprite: _RMC14/Objects/Tools/welder_industrial.rsi
+  - type: Item
+    sprite: _RMC14/Objects/Tools/welder_industrial.rsi
+  - type: SolutionContainerManager
+    solutions:
+      Welder:
+        reagents:
+        - ReagentId: WeldingFuel
+          Quantity: 200
+        maxVol: 200
+  - type: SolutionRegeneration
+    solution: Welder
+    generated:
+      reagents:
+      - ReagentId: WeldingFuel
+        Quantity: 1
+  - type: WhitelistPickupBy
+    whitelist:
+      components:
+        - Synth
+
+- type: entity
   parent: RMCWelderBase
   id: RMCWelderPVE
   name: modified blowtorch
