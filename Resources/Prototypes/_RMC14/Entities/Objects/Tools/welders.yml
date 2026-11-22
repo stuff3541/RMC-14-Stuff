@@ -237,7 +237,7 @@
   name: Experimental Welder
   description: A synthetic-grade experimental blowtorch with a compact fuel recycler.
   components:
-  - type: Sprite ## RMC TODO: Uneque sprite
+  - type: Sprite # RMC TODO: Unique sprite
     sprite: _RMC14/Objects/Tools/welder_industrial.rsi
   - type: Item
     sprite: _RMC14/Objects/Tools/welder_industrial.rsi

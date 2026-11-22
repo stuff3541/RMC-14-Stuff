@@ -19,7 +19,6 @@
     soundHit:
       collection: GenericHit
     wideAnimationRotation: 90
-  - type: MeleeRequiresWield
   - type: WhitelistPickupBy
     whitelist:
       components:

@@ -344,6 +344,8 @@
         points: 15
       - id: RMCSatchelMarineIntelChestrig
         points: 15
+      - id: RMCMaintenanceJack
+        points: 15
 
 - type: entity
   parent: CMVendorBundleRiflemanApparel
